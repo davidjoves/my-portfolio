@@ -1,0 +1,149 @@
+/* About.css */
+  /* Keyframes for blinking cursor effect */
+    @keyframes blinkCursor {
+    from {
+        border-color: transparent;
+    }
+    to {
+        border-color: black;
+    }
+    50% {
+        border-color: transparent;
+    }
+    }
+
+    @keyframes blinkCursor {
+        from { border-right-color: #2a3d66; }
+        to { border-right-color: transparent; }
+    }
+
+    @keyframes blinkCursor {
+        50% { border-color: transparent; }
+    }
+      
+    @keyframes typing {
+        from { width: 0; }
+        to { width: 100%; }
+    }
+
+    .intro-text span {
+    border-right: 2px solid;
+    padding-right: 20px;
+    animation: blinkCursor 0.7s steps(1) infinite normal;
+    }
+
+
+    #about {
+      color: #ffffff; /* or any other color you have on your page */
+      background-color: #121212; /* Adjust the color to match your screenshot */
+      font-family: 'Open Sans', sans-serif; /* Use the font that best matches your design */
+      text-align: left; /* Align text to the left */
+      padding: 4rem;
+    }
+    
+
+    .intro-text {
+      max-width: 1200px; /* Adjust the width as needed */
+      margin: 0 auto; /* Centers the text container in the section */
+    }
+
+    .intro-text h1 {
+      font-size: 5rem; /* Large font size for the name */
+      font-weight: 700; /* Bold font weight */
+      margin-bottom: 0.5rem; /* Space between the name and the statement */
+    }
+    
+
+    .intro-text h2 {
+      font-size: 3rem; /* Large font size for the statement */
+      font-weight: 300; /* Lighter font weight for the statement */
+      margin-bottom: 2rem; /* Space between the statement and the paragraph */
+    }
+
+    .text-section p {
+      font-size: 1.25rem; /* Adjust paragraph font size as needed */
+      max-width: 800px; /* Max width for paragraph to maintain readability */
+    }
+
+    /* Since .changing-text is part of the heading, it should inherit boldness */
+    /* No need to specify font-weight again if it's the same as h2 */
+    .intro-text .changing-text {
+    padding-right: 5px; /* Space for the cursor */
+    border-right: 2px solid #2a3d66; /* Cursor color */
+    animation: blinkCursor 0.7s steps(1) infinite normal, typing 2s steps(30, end) 1s infinite;
+    text-decoration: underline;
+    }
+
+
+  .changing-text {
+    font-size: 3rem; /* Match the size with intro text if it's part of the heading */
+    color: #8ea9e5; /* Same dark shade of blue */
+    font-weight: 300; /* Ensures the changing text is also bold */
+    padding-right: 5px;
+    margin-bottom: 2rem;
+    border-right: 2px solid #2a3d66; /* Cursor color */
+    animation: blinkCursor 0.7s steps(1) infinite normal;
+    transition: width 0.1s ease-out;
+  }  
+  .about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .text-section {
+    flex: 1;
+  }
+/* Assuming the .contact-icons is the container for your icons */
+/* Existing Styles */
+.contact-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 80%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+.contact-icons a {
+  color: #ffffff;
+  margin: 0 60px;
+}
+
+.contact-icons a:hover {
+  color: #8ea9e5;
+}
+
+/* Responsive Design */
+@media (max-width: 845px) {
+  .intro-text h1 {
+    font-size: 3rem;
+  }
+
+  .intro-text h2 {
+    font-size: 2rem;
+  }
+
+  .text-section p {
+    font-size: 1rem;
+  }
+
+  /* Responsive styles for .contact-icons */
+  .contact-icons {
+    right: 10px; /* Keep the icons aligned to the right */
+    top: auto;
+    bottom: 10px; /* Position at the bottom on smaller screens */
+    flex-wrap: wrap; /* Enable wrapping if icons don't fit in a single row */
+  }
+
+  .contact-icons a {
+    margin: 0 15px; /* Reduce the margin for smaller screens */
+    font-size: 0.8em; /* Optionally reduce the size of icons */
+  }
+  .changing-text {
+    font-size: 2rem
+  }
+}
