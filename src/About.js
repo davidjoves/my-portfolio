@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import './About.css';
-import useScrollTrigger from './useScrollTrigger';
 
 
 
@@ -13,9 +12,6 @@ function About() {
   const [subIndex, setSubIndex] = useState(0); // Position in the current skill
   const [index, setIndex] = useState(0); // Index of the current skill in the skills array
   const [reverse, setReverse] = useState(false); // Whether the animation is in reverse mode
-  const typingSpeed = 100; // Time in milliseconds
-  const erasingSpeed = 50; // Time in milliseconds
-  const pauseTime = 1000;
 
   
   // Typing effect logic
@@ -53,14 +49,18 @@ function About() {
   return (
     <section id="about">
       <div className="intro-text">
-        <h2>Hi, I'm David, I like <span className="changing-text" style={{ width: `${subIndex / skills[index].length * 100}%` }}>{skill}</span></h2>
+        <h2>Hi I'm David, I like <span className="changing-text" style={{ width: `${subIndex / skills[index].length * 100}%` }}>{skill}</span></h2>
       </div>
 
       <div className="about-content">          
         <div className="text-section">
             <h2>About Me</h2>
-            <p>Hi! my name is David and I have always had a keen interest for tech. My software development journey started off in community college. During my two years over there I have developed many programs and started to pave my way onto becoming a successful software developer.</p>
-            <p>Currently, I have had the greatful oppurtunity of continuing my studies over at the University of Calfornia, Irvine under their B.S program in Computer Science. As I continue to further develop my skills through schooling, I am actively seeking for internship oppurtunities during the spring and summer of 2024. Feel free to reach out to me using the links to the right. Scroll down to also learn about my software development skills and journey.  </p>
+            <p>
+              Hi! my name is David and I have always had a keen interest for tech. My software development journey started off in community college. During my two years over there I have developed many programs and started to pave my way onto becoming a successful software developer.
+            </p>
+            <p>
+              Currently, I have had the greatful oppurtunity of continuing my studies over at the University of Calfornia, Irvine under their B.S program in Computer Science. As I continue to further develop my skills through schooling, I am actively seeking for internship oppurtunities during the spring and summer of 2024. Feel free to reach out to me using the links to the right. Scroll down to also learn about my software development skills and journey.  
+            </p>
           </div>
           <div className="contact-icons">
             <a href="https://github.com/davidjoves" target="_blank" rel="noopener noreferrer">

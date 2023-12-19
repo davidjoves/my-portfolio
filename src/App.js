@@ -4,6 +4,7 @@ import Header from './Header';
 import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
+import Experience from './Experience';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <Header />
       <About />
+      <Experience />
       <Projects />
       <Contact />
     </div>

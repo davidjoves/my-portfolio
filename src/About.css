@@ -60,6 +60,12 @@
       margin-bottom: 2rem; /* Space between the statement and the paragraph */
     }
 
+    .text-section h2{
+      font-size: 3rem; /* Large font size for the statement */
+      font-weight: 300; /* Lighter font weight for the statement */
+      margin-bottom: 2rem; /* Space between the statement and the paragraph */
+    }
+
     .text-section p {
       font-size: 1.25rem; /* Adjust paragraph font size as needed */
       max-width: 800px; /* Max width for paragraph to maintain readability */
@@ -147,3 +153,4 @@
     font-size: 2rem
   }
 }
+

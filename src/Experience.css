@@ -1,0 +1,92 @@
+#experience {
+    position: relative;
+    padding: 20px 0;
+}
+
+#experience h2 {
+  font-size: 3rem; /* Large font size for the statement */
+  font-weight: 300; /* Lighter font weight for the statement */
+  margin-bottom: 2rem; /* Space between the statement and the paragraph */
+
+}
+
+.timeline-item {
+  position: relative;
+  width: 45%;
+  margin-bottom: 40px;
+}
+
+.timeline-item:nth-child(odd) {
+  margin-left: 55%;
+}
+
+.timeline-item:nth-child(even) {
+  margin-right: 55%;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: #4d82f3;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  top: 10px;
+  z-index: 100;
+}
+
+.timeline-item:nth-child(odd)::before {
+  left: -8px;
+}
+
+.timeline-item:nth-child(even)::before {
+  right: -8px;
+}
+
+.timeline {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  border-left: 2px solid #333;
+  height: 100%;
+}
+.timeline-content {
+  position: relative;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 20px;
+  box-shadow: 0 1px 30px #8ea9e5;
+}
+
+#experience ul {
+  list-style: none;
+}
+
+#experience ul li {
+  padding-bottom: 5px; /* Allows space for the custom dot */
+}
+
+.highlight {
+  font-weight: bold; /* This makes the text bold */
+  font-size: 1em; /* This increases the font size; adjust as needed */
+  color: #8ea9e5; /* This highlights the text with a yellow background */
+}
+
+.coursework-section {
+  margin-bottom: 20px; /* Adjust as needed for spacing */
+}
+
+.coursework-header {
+  font-weight: bold; /* Makes the text bold */
+  text-decoration: underline; /* Underlines the text */
+  margin-bottom: 5px; /* Adds some space between the header and the content */
+}
+
+.coursework-content {
+  margin-top: 0; /* Removes any default top margin for consistency */
+  /* Other styles for content here, if needed */
+}
+
+
