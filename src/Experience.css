@@ -89,4 +89,24 @@
   /* Other styles for content here, if needed */
 }
 
+@media screen and (max-width: 768px) {
+  #experience h2 {
+      font-size: 2rem; /* Smaller font size */
+      margin-bottom: 1rem; /* Smaller margin */
+  }
 
+  .timeline-item {
+      width: 100%; /* Full width for smaller screens */
+      margin-left: 0;
+      margin-right: 0;
+  }
+
+  .timeline-item::before {
+      left: 10px; /* Adjust position for mobile */
+  }
+
+  .timeline {
+      border-left: none;
+      padding-left: 30px; /* Adjust padding for timeline on smaller screens */
+  }
+}

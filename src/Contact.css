@@ -1,3 +1,9 @@
+#contact h2{
+  font-size: 3rem; /* Large font size for the statement */
+  font-weight: 300; /* Lighter font weight for the statement */
+  margin-bottom: 2rem; /* Space between the statement and the paragraph */
+
+}
 .contact-icons {
     display: flex;
     flex-direction: row;
@@ -6,18 +12,19 @@
     position: center;
   }
   
-  .contact-icons a {
+  .contact-icons a, .contact-icons button {
     color: #ffffff;
     margin: 0 60px;
-  }
-  
-  .contact-icons a:hover {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-icons a:hover, .contact-icons button:hover {
     color: #8ea9e5;
-  }
+}
   
-/* Responsive Design */
 @media (max-width: 845px) {  
-    /* Responsive styles for .contact-icons */
     .contact-icons {
       right: 10px; /* Keep the icons aligned to the right */
       top: auto;
