@@ -101,27 +101,6 @@
   .text-section {
     flex: 1;
   }
-/* Assuming the .contact-icons is the container for your icons */
-/* Existing Styles */
-.contact-icons {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 80%;
-  right: 20px;
-  transform: translateY(-50%);
-}
-
-.contact-icons a {
-  color: #ffffff;
-  margin: 0 60px;
-}
-
-.contact-icons a:hover {
-  color: #8ea9e5;
-}
 
 /* Responsive Design */
 @media (max-width: 845px) {

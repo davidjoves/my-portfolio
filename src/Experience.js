@@ -11,7 +11,7 @@ function Experience() {
             <h3>Computer Science Major @ UC Irvine</h3>
             <p>August 2023 - Present</p>
             <ul>
-              <li> Completing Bachelors in Computer Science </li>
+              <li> Completing <span className="highlight">Bachelors in Computer Science </span></li>
               <div className="coursework-section">
                 <p className="coursework-header">Relative Coursework:</p>
                 <p className="coursework-content">
@@ -28,7 +28,7 @@ function Experience() {
         <div className="timeline-item">
           <div className="timeline-content">
             <h3>Volunteer Tutor @ San Diego Mesa College</h3>
-            <p>May 2023 - July</p>
+            <p> August 2022 - May 2023</p>
             <ul>
               <li>• Organized and led complimentary tutoring and study sessions on a weekly basis for fellow students in computer science, math, and physics courses</li>
               <li>• Hosted educational sessions on <span className="highlight">JUnit </span> testing and <span className="highlight"> Git</span> version control</li>
@@ -36,20 +36,35 @@ function Experience() {
           </div>
         </div>
 
+
         <div className="timeline-item">
           <div className="timeline-content">
-            <h3>Officer @ San Diego </h3>
-            <p>May 2023 - July</p>
+            <h3>Community College Student @ San Diego Mesa College</h3>
+            <p>August 2021 - May 2023</p>
             <ul>
-              <li>Worked on the Space Development Agency team.</li>
-              <li>Led development of a Python automation script...</li>
-              {/* More list items */}
+              <li>Obtained <span className="highlight">Assoicate's in Computer Science</span> and <span className="highlight">Assoicate's in Mathematics</span></li>
+              <div className="coursework-section">
+                <p className="coursework-header">Relative Coursework:</p>
+                <p className="coursework-content">
+                  Design and Analysis of Algorithms, Data Structure Implementation and Analysis,
+                  Python Programming and Libraries, Introduction to Software Engineering,
+                  Human Computer Interaction
+                </p>
+              </div>
             </ul>
           </div>
         </div>
 
-
-        {/* Additional timeline items... */}
+        <div className="timeline-item">
+          <div className="timeline-content">
+            <h3>Material Coordinator @ Illumina</h3>
+            <p>August 2021 - Janurary 2022</p>
+            <ul>
+              <li></li>
+              {/* More list items */}
+            </ul>
+          </div>
+        </div>
       </div>
     </section>
   );

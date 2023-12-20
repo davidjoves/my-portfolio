@@ -1,7 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import './About.css';
 
 
@@ -59,19 +56,8 @@ function About() {
               Hi! my name is David and I have always had a keen interest for tech. My software development journey started off in community college. During my two years over there I have developed many programs and started to pave my way onto becoming a successful software developer.
             </p>
             <p>
-              Currently, I have had the greatful oppurtunity of continuing my studies over at the University of Calfornia, Irvine under their B.S program in Computer Science. As I continue to further develop my skills through schooling, I am actively seeking for internship oppurtunities during the spring and summer of 2024. Feel free to reach out to me using the links to the right. Scroll down to also learn about my software development skills and journey.  
+              Currently, I have had the greatful oppurtunity of continuing my studies over at the University of Calfornia, Irvine under their B.S program in Computer Science. As I continue to further develop my skills through schooling, I am actively seeking for internship oppurtunities during the spring and summer of 2024. Scroll down to also learn about my software development skills and journey.  
             </p>
-          </div>
-          <div className="contact-icons">
-            <a href="https://github.com/davidjoves" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faGithub} size="2x" />
-            </a>
-            <a href="mailto:djoves@uci.edu">
-              <FontAwesomeIcon icon={faEnvelope} size="2x" />
-            </a>
-            <a href="https://www.linkedin.com/in/david-joves" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faLinkedin} size="2x" />
-            </a>
           </div>
       </div>
     </section>
