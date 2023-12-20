@@ -1,0 +1,37 @@
+.contact-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: center;
+  }
+  
+  .contact-icons a {
+    color: #ffffff;
+    margin: 0 60px;
+  }
+  
+  .contact-icons a:hover {
+    color: #8ea9e5;
+  }
+  
+/* Responsive Design */
+@media (max-width: 845px) {  
+    /* Responsive styles for .contact-icons */
+    .contact-icons {
+      right: 10px; /* Keep the icons aligned to the right */
+      top: auto;
+      bottom: 10px; /* Position at the bottom on smaller screens */
+      flex-wrap: wrap; /* Enable wrapping if icons don't fit in a single row */
+    }
+  
+    .contact-icons a {
+      margin: 0 15px; /* Reduce the margin for smaller screens */
+      font-size: 0.8em; /* Optionally reduce the size of icons */
+    }
+    .changing-text {
+      font-size: 2rem
+    }
+  }
+  
+  
