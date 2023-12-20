@@ -4,7 +4,7 @@ import './Experience.css';
 function Experience() {
   return (
     <section id="experience">
-      <h2> Relative Experience</h2>
+      <h2> Relevent Experience</h2>
       <div className="timeline">
         <div className="timeline-item">
           <div className="timeline-content">
