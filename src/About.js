@@ -53,10 +53,10 @@ function About() {
         <div className="text-section">
             <h2>About Me</h2>
             <p>
-              Hi! my name is David and I have always had a keen interest for tech. My software development journey started off in community college. During my two years over there I have developed many programs and started to pave my way onto becoming a successful software developer.
+              Hello! My name is David, and I have always been deeply interested in technology. My software development journey began in community college. During my two years there, I developed numerous programs and began to carve a path toward becoming a successful software developer.
             </p>
             <p>
-              Currently, I have had the greatful oppurtunity of continuing my studies over at the University of Calfornia, Irvine under their B.S program in Computer Science. As I continue to further develop my skills through schooling, I am actively seeking for internship oppurtunities during the spring and summer of 2024. Scroll down to also learn about my software development skills and journey.  
+              Currently, I have had the wonderful opportunity to continue my studies at the University of California, Irvine, pursuing a B.S. in Computer Science. As I further develop my skills through academic training, I am actively seeking internship opportunities for the spring and summer of 2024. Please scroll down to learn more about my software development skills and journey.            
             </p>
           </div>
       </div>
