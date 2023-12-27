@@ -19,7 +19,6 @@
           </div>
         </a>
         
-
         <a href="https://github.com/davidjoves/discord-type" className="project-card" target="_blank" rel="noopener noreferrer">
           <div className="project-card">
             <div className="project-card-inner">
@@ -34,7 +33,6 @@
         </a>
 
 
-
         <a href="https://github.com/davidjoves/my-portfolio" className="project-card" target="_blank" rel="noopener noreferrer">
           <div className="project-card">
             <div className="project-card-inner">
@@ -47,8 +45,6 @@
             </div>
           </div>
         </a>
-
-          {/* Repeat for other projects */}
         </div>
       </section>
     );
