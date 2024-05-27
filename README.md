@@ -1,4 +1,4 @@
 old portfolio
 
 
-check out my new one! https://davidjoves.com/
+check out my new one! https://github.com/davidjoves/portfolio
